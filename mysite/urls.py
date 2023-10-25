@@ -19,5 +19,5 @@ from terytorium.views import Home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Home.as_view(), name='home')
+    path('', Home.as_view(), name='woj')
 ]
