@@ -25,6 +25,12 @@
                 content-visibility: auto;
             }
         }
+        @media screen and (max-width: 768px) {
+            .grid {
+                display: flex;
+                flex-direction: column; /* Wyświetlaj elementy jeden pod drugim na urządzeniach o szerokości do 768px. */
+            }
+        }
     </style>
 </head>
 <body class="bg-gradient-to-r from-white to-red-500">
